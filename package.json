@@ -1,7 +1,13 @@
 {
-  "name": "useModal",
-  "version": "1.0.0",
-  "description": "useModal hooks for naive-ui",
+  "name": "naive-ui-modal",
+  "version": "0.0.1",
+  "description": "you can call the modal with command",
+  "author": "lnunu",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "packageManager": "pnpm@8.7.4",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,8 +16,6 @@
     "hooks",
     "modal"
   ],
-  "author": "lnunu",
-  "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.6.0",
     "naive-ui": "^2.34.4",
