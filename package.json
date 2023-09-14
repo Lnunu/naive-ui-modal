@@ -1,0 +1,24 @@
+{
+  "name": "useMessage",
+  "version": "1.0.0",
+  "description": "useMessage hooks for naive-ui",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "naive-ui",
+    "hooks",
+    "message"
+  ],
+  "author": "lnunu",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "naive-ui": "^2.34.4",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  }
+}
