@@ -1,14 +1,14 @@
 {
-  "name": "useMessage",
+  "name": "useModal",
   "version": "1.0.0",
-  "description": "useMessage hooks for naive-ui",
+  "description": "useModal hooks for naive-ui",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "naive-ui",
     "hooks",
-    "message"
+    "modal"
   ],
   "author": "lnunu",
   "license": "ISC",

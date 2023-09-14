@@ -1,8 +1,8 @@
 import type { InjectionKey } from "vue";
-import { MessageApiInjection } from "./MessageProvider";
+import { ModalApiInjection } from "./ModalProvider";
 
 export function createInjectionKey<T>(key: string): InjectionKey<T> {
   return key as any;
 }
 
-export const messageInjectionKey = createInjectionKey<MessageApiInjection>("message-api");
+export const modalInjectionKey = createInjectionKey<ModalApiInjection>("modal-api");

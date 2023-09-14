@@ -1,14 +1,14 @@
-import { MessageApiInjection } from "./MessageProvider";
+import { ModalApiInjection } from "./ModalProvider";
 import { inject } from "vue";
-import { messageInjectionKey } from "./context";
+import { modalInjectionKey } from "./context";
 
-export function useMessage(): MessageApiInjection {
-  const message = inject(messageInjectionKey, null);
-  if (message === null) {
-    throwError("use-message", "No outer <message-provider/> founded.");
+export function useModal(): ModalApiInjection {
+  const modal = inject(modalInjectionKey, null);
+  if (modal === null) {
+    throwError("use-modal", "No outer <modal-provider/> founded.");
   }
 
-  return message;
+  return modal;
 }
 
 function throwError(location: string, message: string): never {

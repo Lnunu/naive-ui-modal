@@ -1,8 +1,8 @@
 import { NAlert, NModal, modalProps } from "naive-ui";
 import { PropType, VNode, defineComponent, h, ref } from "vue";
 
-export const MessageEnvironment = defineComponent({
-  name: "MessageEnvironment",
+export const ModalEnvironment = defineComponent({
+  name: "ModalEnvironment",
   props: {
     ...modalProps,
     internalKey: {

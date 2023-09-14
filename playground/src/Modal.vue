@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useMessage } from "message";
+import { useModal } from "modal";
 import { NAlert, NButton, NModal, NSpace } from "naive-ui";
 import { h, ref } from "vue";
 
@@ -8,10 +8,10 @@ const isShowModal = ref<boolean>(false);
 function openModal() {
   isShowModal.value = true;
 }
-const message = useMessage()
+const modal = useModal()
 
 function openCommandModal() {
-  message.create({
+  modal.create({
     preset: "card",
     content: () => h("div", "hahahah")
   })

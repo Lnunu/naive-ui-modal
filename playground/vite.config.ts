@@ -8,7 +8,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "~/": `${path.resolve(__dirname, "src")}/`,
-      "message": path.resolve(__dirname, "../src/index.ts"),
+      "modal": path.resolve(__dirname, "../src/index.ts"),
     },
   },
 });

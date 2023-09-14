@@ -1,2 +1,2 @@
-export { MessageProvider } from "./MessageProvider";
-export { useMessage } from "./composables";
+export { ModalProvider } from "./ModalProvider";
+export { useModal } from "./composables";

@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { MessageProvider } from "message"
-import Message from "./Message.vue"
+import { ModalProvider } from "modal"
+import Modal from "./Modal.vue"
 
 </script>
 
 <template>
-  <MessageProvider>
-    <Message />
-  </MessageProvider>
+  <ModalProvider>
+    <Modal />
+  </ModalProvider>
 </template>
 
